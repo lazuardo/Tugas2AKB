@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bg_Blue"
+    tools:context=".VerifyACC">
+
+    <TextView
+        android:id="@+id/textVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/VerifyAcc"
+        android:textColor="@color/Bg_white"
+        android:textSize="@dimen/Title2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281"/>
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="@dimen/w_txt_dimen"
+        android:layout_height="wrap_content"
+        android:text="@string/your_email"
+        android:textAlignment="center"
+        android:textColor="@color/Bg_white"
+        android:textSize="@dimen/edit_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <EditText
+        android:id="@+id/txtverification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/s_margin_dimen"
+        android:layout_marginEnd="@dimen/e_margin_dimen"
+        android:ems="10"
+        android:hint="@string/code"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/Bg_white"
+        android:textSize="@dimen/edit_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/s_margin_dimen"
+        android:layout_marginEnd="@dimen/e_margin_dimen"
+        android:background="@drawable/btn_style1"
+        android:text="@string/Send"
+        android:textColor="@color/Bg_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <TextView
+        android:id="@+id/txtresend"
+        android:layout_width="@dimen/w_txt_dimen"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/Bg_white"
+        android:textSize="@dimen/edit_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Title">24sp</dimen>
+    <dimen name="Title2">32sp</dimen>
+    <dimen name="desc_txt">12sp</dimen>
+    <dimen name="edit_txt">14sp</dimen>
+    <dimen name="name_txt">16sp</dimen>
+    <dimen name="regis_txt">20sp</dimen>
+
+
+
+    <dimen name="w_logo_dimen">120dp</dimen>
+    <dimen name="w_spinner_dimen">150dp</dimen>
+    <dimen name="w_txt_dimen">280dp</dimen>
+    <dimen name="h_logo_dimen">120dp</dimen>
+
+    <dimen name="w_EDtxt_dimen">120dp</dimen>
+    <dimen name="h_EDtxt_dimen">60dp</dimen>
+    <dimen name="txtRH">55dp</dimen>
+
+    <dimen name="s_margin_dimen">18dp</dimen>
+    <dimen name="e_margin_dimen">18dp</dimen>
+
+    <dimen name="ps_fb">40dp</dimen>
+    <dimen name="pe_fb">40dp</dimen>
+    <dimen name="pt_fb">10dp</dimen>
+    <dimen name="pb_fb">10dp</dimen>
+    <dimen name="fb_margin">16dp</dimen>
+    <dimen name="ps0">20dp</dimen>
+    <dimen name="ps1">40dp</dimen>
+    <dimen name="ps2">60dp</dimen>
+    <dimen name="ps3">80dp</dimen>
+    <dimen name="ps32">90dp</dimen>
+    <dimen name="ps4">100dp</dimen>
+
+</resources>

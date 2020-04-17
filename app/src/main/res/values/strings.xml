@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Tugas2AKB</string>
+    <string name="login">LOGIN</string>
+    <string name="facebook">CONNECT TO FACEBOOK</string>
+    <string name="or">OR</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="repass">Retype Password</string>
+    <string name="Register">Register</string>
+    <string name="Email">Email</string>
+    <string name="Phone_n">Phone Number</string>
+    <string name="Add">Home Address</string>
+    <string name="Loc">Default Location</string>
+    <string name="Agree">Agree with Terms and Conditions</string>
+    <string name="Almost">Almost There</string>
+    <string name="Send">Send</string>
+    <string name="Verify">VERIFY</string>
+    <string name="VerifyAcc">Verify your Account</string>
+    <string name="code">Enter verification code here...</string>
+    <string name="your_email">We have send verification to your email</string>
+    <string name="thanks">Thank you for registering with us. One more step, you need to check your email to active your account</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="P">Personal</string>
+    <string name="O">Organization</string>
+    <string name="M">Male</string>
+    <string name="F">Female</string>
+    <string name="nama">Juan Lazuardo</string>
+    <string name="Blood">Blood Type : AB</string>
+    <string name="A75">75</string>
+    <string name="A100">100</string>
+    <string name="A300">300</string>
+    <string name="bgive">BLOOD GIVE</string>
+    <string name="bre">BLOOD RECEIVED</string>
+    <string name="thanks2">THANKS</string>
+    <string name="donor">Search Donor</string>
+    <string name="needed">Blood Needed</string>
+    <string name="message">Message</string>
+    <string name="history">Donor History</string>
+    <string name="donor2">Search donor near you</string>
+    <string name="needed2">4 Users need blood</string>
+    <string name="message2">5 New Messages</string>
+    <string name="history2">5 Gives, 2 recieved</string>
+
+
+    <string-array name="Blood_Type">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>AB</item>
+        <item>B</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="Reshus">
+        <item>Reshus</item>
+        <item>RH +</item>
+        <item>RH -</item>
+    </string-array>
+
+    <string-array name="Job">
+        <item>Job</item>
+        <item>Work</item>
+        <item>Freelancer</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
